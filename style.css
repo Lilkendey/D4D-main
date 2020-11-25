@@ -1,0 +1,25 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(253, 253, 33);
+    font-family: "montserrat";
+}
+a,
+button {
+    font-family:"dala-floda";
+}
+
+.dropdown {
+    height: 35vh;
+    background: rgb(104, 101, 101);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}  
+ 
