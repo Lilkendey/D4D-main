@@ -8,18 +8,42 @@ body {
     height: 100vh;
     background-color: rgb(253, 253, 33);
     font-family: "montserrat";
+    font-size: 3em;
+  
 }
+
 a,
 button {
     font-family:"dala-floda";
+    font-family: "montserrat";
+    font-size: 25px;
+    padding: 3px;
+    display: flex-around;
+    
 }
 
 .dropdown {
-    height: 35vh;
+    /* height: 33vh;
     background: rgb(104, 101, 101);
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    align-items: center; */
+   
 }  
  
+.main-tabs {
+   display: flex; 
+   align-items: center;
+   justify-content: flex-end;
+   padding: 0;
+}
+
+.main-tabs li {
+
+}
+
+.header {
+    background: rgb(104, 101, 101);
+    height: 28vh;
+    
+}
