@@ -5,22 +5,38 @@ body {
 
 body {
     display: grid;
-}
-
-nav-links {
-    display: flex;
+    background-color: rgb(253, 253, 33);
     
 }
 
+#nav-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: "montserrat";
+    font-size: 30px;
+    padding: 5px;  
+     
+    
+}
+
+#search {
+    float: right;  
+    background-color: light gray;
+    height:35px;
+  
+  
+}
+
 header {
-    font-family: "dala floda";
     background-color: rgb(104, 101, 101);
     height: 23vh;
-
+   
 }
     
 
 main {
-    height: 100vh;
-    background-color: rgb(253, 253, 33);
+    font-family: "montserrat";
+    font-size: 1em;
+ 
 }
