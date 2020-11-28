@@ -8,6 +8,7 @@ body {
     display: grid;
     background-color: rgb(253, 253, 33);
     
+    
 }
 
 #nav-links {
@@ -24,10 +25,11 @@ body {
 #search {
     float: right;  
     background-color: light gray;
-    height:35px;
-  
+    height:45px;
   
 }
+
+
 
 header {
     background-color: rgb(104, 101, 101);
