@@ -47,20 +47,23 @@ main {
 
 .gallery {
     display: grid;
-    max-width: 50vw;
-    border: 1px rgb(104, 101, 101);
+    max-width: 60vw;
+    border: 6px rgb(104, 101, 101);
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-wrap: wrap;
-    justify-content: centered;
+    
    
 }
 .gallery > img {
-    margin: 10px;
-    transition: transform 0.3 ease-in-out;
+    filter:grayscale(1);
+    transition: transform 0.3s ease-in-out;
 }
 
+.gallery-cards {
+    text-align: center;
+    
+}
 .gallery > img :hoover {
-    filter: blur(2);
+    filter: grayscale(0);
     transform: scale(2);
-    z-index: inherit;
+    z-index: 2;
 }
